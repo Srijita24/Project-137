@@ -1,0 +1,61 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    color: white;
+    font-size: 23px;
+    width : 100%;
+    margin: 0px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#no_of_objects, #status{
+    font-size: 20px;
+    color: black;
+}
+
+#note {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(163, 235, 245);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#label {
+    font-size: 25px;
+    color: rgb(139, 10, 36);
+    font-weight: 600;
+}
+
+#object_name {
+    font-size: 20px;
+    color: rgb(70, 8, 129);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#start {
+    font-size: 18px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2.5;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(65, 2, 56);
+    color: rgb(234, 250, 10);
+}
+
+canvas {
+    box-shadow: 5px 5px 5px white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin-top: 130px;
+}
